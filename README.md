@@ -1,5 +1,8 @@
 # Data structures
-## Code challenge examples
-Day 1 - Arrays
+
+## Code challenge algorithms
+
+###Day 1 - Arrays
+
 - Sorted squared
 - Check monotonic
