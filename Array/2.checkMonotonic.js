@@ -1,4 +1,4 @@
-// Exercice 2: An array is monotonic if it is either monotonic increasing or monotonic decreasing. An array is monotonic increasing if all elements from left to right are non-decreasing. An array is monotonic decreasing if all its elements from left to right are non-increasing. Given an integer array return true if the given array is monotonic, or false otherwise.
+// Question 2: An array is monotonic if it is either monotone increasing or monotone decreasing. An array is monotone increasing if all its elements from left to right are non-decreasing. An array is monotone decreasing if all its elements from left to right are non-increasing. Given an integer array return true if the given array is monotonic, or false otherwise.
 
 // Complexity => Time: O(n) | Space: O(1)
 
@@ -35,6 +35,7 @@ const checkMonotonic = function (array) {
   }
 };
 
+// Test cases
 const a = [1, 2, 3]; // true
 const b = [3, 2, 1]; // true
 const c = [1, 2, 2]; // true

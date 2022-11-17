@@ -1,4 +1,4 @@
-// Exercice 1: You are given an array of integers in which each subsequent value is not less than the previous value. Write a function that takes this array as an input and returns a new array with the squeres of each number sorted in ascending order.
+// Question 1: You are given an array of Integers in which each subsequent value is not less than the previous value. Write a function that takes this array as an input and returns a new array with the squares of each number sorted in ascending order.
 
 // Complexity => Time: O(nlogn) | Space: O(n)
 
@@ -13,6 +13,7 @@ function sortedSquared(array) {
   return newArray;
 }
 
+// Test cases
 const a = [-1, 3, 5]; // [1, 9, 25]
 const b = [0, 5, 6]; // [0, 25, 36]
 const c = [-4, -2, 0, 1, 3]; // [0, 1, 4, 9, 36]
